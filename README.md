@@ -86,6 +86,11 @@ A estrutura abaixo representa uma organização sugerida para o repositório, qu
 ```text
 tc03-state-of-data-analytics/
 │
+├── datasets/
+│   ├── State of Data 2023 - Kaggle.csv
+│   ├── State of Data 2024 - Kaggle.csv
+│   └── State of Data 2025-2026 - Kaggle.csv
+│
 ├── docs/
 │   └── arquitetura.drawio
 │
@@ -94,13 +99,11 @@ tc03-state-of-data-analytics/
 │   ├── 02_silver_state_of_data.ipynb
 │   └── 03_gold_state_of_data.ipynb
 │
-├── analysis/
-│   └── analise_exploratoria.ipynb
-│
+├── analises/
+│   └── analises_athena
 │
 ├── README.md
 │
-└── requirements.txt
 ```
 
 
