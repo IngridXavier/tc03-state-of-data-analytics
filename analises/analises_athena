@@ -1,1 +1,55 @@
+-------------------------------------------------------------------------------------------------------------------------------------------
+--TABELA 2023-2024
 
+--QTD Bronze
+select count(*) from  tb_sod_2023_2024
+--5293
+
+--QTD Silver
+select count(*) from  tb_sod_2023_2024
+--5293
+
+--Validacao ano_pesquisa
+select distinct ano_pesquisa from tb_sod_2023_2024
+
+--Validacao id nulo
+select p0_id_0 is null from  tb_sod_2023_2024
+
+select * from tb_sod_2023_2024
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+--TABELA 2024-2025
+
+--QTD Bronze
+select count(*) from tb_sod_2024_2025
+--5217
+
+--QTD Silver
+select count(*) from tb_sod_2024_2025
+--5215
+
+--Validacao ano_pesquisa
+select distinct ano_pesquisa from tb_sod_2024_2025
+
+--Validacao genero nulo
+select * from tb_sod_2024_2025
+where col_1_b_genero is null
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+--TABELA 2025-2026
+
+--QTD Bronze
+select count(*) from tb_sod_2025_2026
+---3495
+
+select count(*) from tb_sod_2025_2026
+--3494
+
+--Validacao ano_pesquisa
+select distinct ano_pesquisa from tb_sod_2025_2026
+
+--Validacao genero nulo
+select * from tb_sod_2025_2026
+where col_1_b_genero is null
+
+show create table tb_sod_2025_2026
