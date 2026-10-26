@@ -100,7 +100,7 @@ tc03-state-of-data-analytics/
 │   └── 03_gold_state_of_data.ipynb
 │
 ├── analises/
-│   └── analises_athena
+│   └── analises_athena.txt
 │
 ├── README.md
 │
